@@ -27817,3 +27817,24 @@ msgstr ""
 #: themes/indigo/lms/templates
 msgid "The place for all your online learning"
 msgstr "El lugar para todo su aprendizaje en línea"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Filters"
+msgstr "Filtros"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "About Us"
+msgstr "Acerca de nosotros"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Powered by:"
+msgstr "Con tecnología de:"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+#, python-brace-format
+msgid "Copyrights ©{year}. All Rights Reserved."
+msgstr "Copyright ©{year}. Todos los derechos reservados."

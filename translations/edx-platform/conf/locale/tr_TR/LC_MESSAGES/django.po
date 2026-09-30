@@ -26784,3 +26784,24 @@ msgstr ""
 #: themes/indigo/lms/templates
 msgid "The place for all your online learning"
 msgstr "Tüm çevrimiçi öğreniminiz için tek adres"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Filters"
+msgstr "Filtreler"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "About Us"
+msgstr "Hakkımızda"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Powered by:"
+msgstr "Altyapı:"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+#, python-brace-format
+msgid "Copyrights ©{year}. All Rights Reserved."
+msgstr "Telif Hakkı ©{year}. Tüm Hakları Saklıdır."

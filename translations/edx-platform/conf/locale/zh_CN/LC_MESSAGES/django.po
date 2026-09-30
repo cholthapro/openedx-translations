@@ -22113,3 +22113,24 @@ msgstr "探索知识的世界，通过我们丰富多样的课程提升你的技
 #: themes/indigo/lms/templates
 msgid "The place for all your online learning"
 msgstr "您在线学习的一站式平台"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Filters"
+msgstr "筛选"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "About Us"
+msgstr "关于我们"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Powered by:"
+msgstr "技术支持："
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+#, python-brace-format
+msgid "Copyrights ©{year}. All Rights Reserved."
+msgstr "版权所有 ©{year}。保留所有权利。"

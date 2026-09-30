@@ -26744,3 +26744,24 @@ msgstr "สำรวจโลกแห่งความรู้และพั
 #: themes/indigo/lms/templates
 msgid "The place for all your online learning"
 msgstr "แหล่งรวมการเรียนรู้ออนไลน์ทั้งหมดของคุณ"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Filters"
+msgstr "ตัวกรอง"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "About Us"
+msgstr "เกี่ยวกับเรา"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Powered by:"
+msgstr "ขับเคลื่อนโดย:"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+#, python-brace-format
+msgid "Copyrights ©{year}. All Rights Reserved."
+msgstr "ลิขสิทธิ์ ©{year} สงวนลิขสิทธิ์"

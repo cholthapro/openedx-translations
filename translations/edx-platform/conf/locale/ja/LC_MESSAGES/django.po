@@ -22479,3 +22479,24 @@ msgstr "多彩なコースで知識の世界を探求し、スキルを高めま
 #: themes/indigo/lms/templates
 msgid "The place for all your online learning"
 msgstr "オンライン学習のすべてがここに"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Filters"
+msgstr "フィルター"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "About Us"
+msgstr "私たちについて"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Powered by:"
+msgstr "提供:"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+#, python-brace-format
+msgid "Copyrights ©{year}. All Rights Reserved."
+msgstr "Copyright ©{year}. 無断複写・転載を禁じます。"
