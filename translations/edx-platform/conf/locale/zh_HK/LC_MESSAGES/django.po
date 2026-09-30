@@ -3,28 +3,28 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-# 
+#
 # Translators:
 # Brian Smith, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -34,12 +34,12 @@ msgstr ""
 "PO-Revision-Date: 2025-11-17 07:23+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Chinese (Hong Kong) (https://app.transifex.com/open-edx/teams/6205/zh_HK/)\n"
+"Language: zh_HK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
-"Language: zh_HK\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
@@ -21418,3 +21418,52 @@ msgstr "你好{full_name} ，"
 #, python-brace-format
 msgid "Your {platform_name} ID verification photos have been approved."
 msgstr "您的{platform_name}身分證件驗證照片已獲得批准。"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Explore course"
+msgstr "搜尋課程"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Already Enrolled"
+msgstr "已報名"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Discover courses"
+msgstr "探索課程"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Discover"
+msgstr "探索"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+#, python-brace-format
+msgid "{name} Learner Dashboard"
+msgstr "{name} 學習者主控台"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+#, python-brace-format
+msgid "{platform_name} Learner Home Page"
+msgstr "{platform_name} 學習者主頁"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "釋放你的潛能：今天就探索新課程！"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid ""
+"Explore a world of knowledge and enhance your skills with our diverse range "
+"of courses"
+msgstr "探索知識的世界，透過我們多元化的課程提升你的技能"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "The place for all your online learning"
+msgstr "你所有網上學習的理想平台"

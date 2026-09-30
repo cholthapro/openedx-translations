@@ -26695,3 +26695,52 @@ msgstr "ใส่ข้อความลิขสิทธิ์ของคุ
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "ตัวแก้ไขโค้ด"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Explore course"
+msgstr "ค้นหารายวิชา"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Already Enrolled"
+msgstr "ลงทะเบียนเรียนแล้ว"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Discover courses"
+msgstr "สำรวจรายวิชา"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Discover"
+msgstr "สำรวจ"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+#, python-brace-format
+msgid "{name} Learner Dashboard"
+msgstr "แดชบอร์ดผู้เรียน {name}"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+#, python-brace-format
+msgid "{platform_name} Learner Home Page"
+msgstr "หน้าหลักผู้เรียน {platform_name}"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "ปลดล็อกศักยภาพของคุณ: ค้นพบรายวิชาใหม่วันนี้!"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid ""
+"Explore a world of knowledge and enhance your skills with our diverse range "
+"of courses"
+msgstr "สำรวจโลกแห่งความรู้และพัฒนาทักษะของคุณด้วยรายวิชาที่หลากหลายของเรา"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "The place for all your online learning"
+msgstr "แหล่งรวมการเรียนรู้ออนไลน์ทั้งหมดของคุณ"

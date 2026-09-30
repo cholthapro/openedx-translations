@@ -3,28 +3,28 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-# 
+#
 # Translators:
 # Brian Smith, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -34,12 +34,12 @@ msgstr ""
 "PO-Revision-Date: 2025-11-17 07:23+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/open-edx/teams/6205/vi/)\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
@@ -26609,3 +26609,54 @@ msgstr "Đặt Văn bản Bản quyền của bạn ở đây!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Trình chỉnh sửa mã"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Explore course"
+msgstr "Tìm khóa học"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Already Enrolled"
+msgstr "Đã ghi danh"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Discover courses"
+msgstr "Khám phá khóa học"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Discover"
+msgstr "Khám phá"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+#, python-brace-format
+msgid "{name} Learner Dashboard"
+msgstr "Bảng điều khiển người học {name}"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+#, python-brace-format
+msgid "{platform_name} Learner Home Page"
+msgstr "Trang chủ người học {platform_name}"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "Unlock Your Potential: Discover New Courses Today!"
+msgstr "Khai phá tiềm năng của bạn: Khám phá các khóa học mới ngay hôm nay!"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid ""
+"Explore a world of knowledge and enhance your skills with our diverse range "
+"of courses"
+msgstr ""
+"Khám phá thế giới tri thức và nâng cao kỹ năng của bạn với các khóa học đa "
+"dạng của chúng tôi"
+
+#. KKU: text of the Indigo theme (not in the edx-platform source catalog)
+#: themes/indigo/lms/templates
+msgid "The place for all your online learning"
+msgstr "Nơi dành cho mọi hoạt động học trực tuyến của bạn"
