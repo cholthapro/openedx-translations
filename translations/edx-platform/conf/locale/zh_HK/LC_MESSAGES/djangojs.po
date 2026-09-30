@@ -3,17 +3,16 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-# 
+#
 # Translators:
 # Brian Smith, 2025
-# 
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
@@ -22,12 +21,12 @@ msgstr ""
 "PO-Revision-Date: 2025-11-17 07:23+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Chinese (Hong Kong) (https://app.transifex.com/open-edx/teams/301281/zh_HK/)\n"
+"Language: zh_HK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
-"Language: zh_HK\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: cms/static/cms/js/main.js:38
 #: cms/static/js/views/active_video_upload_list.js:36
@@ -647,6 +646,12 @@ msgstr "上傳新檔案"
 msgid "Load Another File"
 msgstr "載入另一個檔案"
 
+#. Translators: "title" is the name of the current component being edited.
+#: cms/static/js/views/components/add_library_content.js:23
+#: cms/static/js/views/modals/select_v2_library_content.js:18
+msgid "Add library content"
+msgstr "加入資料庫內容"
+
 #: cms/static/js/views/components/add_xblock.js:120
 #: cms/static/js/views/components/add_xblock.js:131
 #: cms/static/js/views/pages/container.js:652
@@ -683,6 +688,10 @@ msgstr "好的"
 #: cms/static/js/views/pages/container_subviews.js:187
 msgid "Copying"
 msgstr "複印"
+
+#: cms/static/js/views/course_outline.js:331
+msgid "Copy of \"{componentDisplayName}\""
+msgstr "「{componentDisplayName}」的副本"
 
 #: cms/static/js/views/course_outline.js:367
 #: cms/static/js/views/pages/container.js:395
@@ -1177,12 +1186,39 @@ msgstr "選擇要將組件移到的位置"
 msgid "Move: {displayName}"
 msgstr "移動： {displayName}"
 
+#. Translators: "title" is the name of the current component being edited.
+#: cms/static/js/views/modals/preview_v2_library_changes.js:23
+msgid "Preview changes to: {title}"
+msgstr "預覽變更：{title}"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:35
+msgid "Accept changes"
+msgstr "接受變更"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:36
+msgid "Ignore changes"
+msgstr "忽略變更"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:99
+msgid "Ignore these changes?"
+msgstr "忽略這些變更？"
+
+#: cms/static/js/views/modals/preview_v2_library_changes.js:100
+msgid ""
+"Would you like to permanently ignore this updated version? If so, you won't "
+"be able to update this until a newer version is published (in the library)."
+msgstr "你要永久忽略此更新版本嗎？如果忽略，在（資料庫中）發佈更新的版本之前，你將無法更新此內容。"
+
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/modals/preview_v2_library_changes.js:101
 #: xmodule/js/src/html/edit.js:695
 msgid "Ignore"
 msgstr "忽略"
+
+#: cms/static/js/views/modals/select_v2_library_content.js:59
+msgid "Add selected components"
+msgstr "加入所選組件"
 
 #: cms/static/js/views/modals/validation_error_modal.js:16
 msgid "Validation Error While Saving"
@@ -3531,6 +3567,12 @@ msgstr "取得學生列表時發生錯誤。"
 msgid "Error generating list of students who may enroll. Please try again."
 msgstr "產生可能註冊的學生清單時發生錯誤。請再試一次。"
 
+#: lms/static/js/instructor_dashboard/data_download.js:327
+msgid ""
+"Error generating list of inactive students who are enrolled in a course. "
+"Please try again."
+msgstr "產生已報名課程但尚未啟用帳戶的學生名單時發生錯誤。請再試一次。"
+
 #: lms/static/js/instructor_dashboard/data_download.js:359
 msgid "Error retrieving grading configuration."
 msgstr "檢索評分設定時發生錯誤。"
@@ -3724,9 +3766,23 @@ msgid "Successfully enrolled the following users:"
 msgstr "已成功註冊以下用戶："
 
 #. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:792
+msgid ""
+"Email was sent to the following users. They will be allowed to enroll once "
+"they register:"
+msgstr "已向以下用戶發送電郵。他們登記後便可報名："
+
+#. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:804
 msgid "These users will be allowed to enroll once they register:"
 msgstr "這些用戶註冊後將被允許註冊："
+
+#. Translators: A list of users appears after this sentence;
+#: lms/static/js/instructor_dashboard/membership.js:816
+msgid ""
+"Email was sent to the following users. They will be enrolled once they "
+"register:"
+msgstr "已向以下用戶發送電郵。他們登記後便會獲安排報名："
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:828
@@ -4451,6 +4507,14 @@ msgstr "帳戶刪除（包括從電郵清單中刪除）可能需要幾週時間
 msgid "Terms of Service and Honor Code"
 msgstr "服務條款和誠信準則"
 
+#: lms/static/js/student_account/views/FinishAuthView.js:71
+msgid "query param next is provide"
+msgstr "已提供查詢參數next"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:73
+msgid "query param next is internal"
+msgstr "查詢參數next為內部連結"
+
 #: lms/static/js/student_account/views/FinishAuthView.js:111
 msgid "Saving your email preference"
 msgstr "儲存您的電郵首選項"
@@ -4459,9 +4523,21 @@ msgstr "儲存您的電郵首選項"
 msgid "Enrolling you in the selected course"
 msgstr "為您註冊所選課程"
 
+#: lms/static/js/student_account/views/FinishAuthView.js:140
+msgid "course mode param is not provided"
+msgstr "未提供課程模式參數"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:148
+msgid "course mode param is provided"
+msgstr "已提供課程模式參數"
+
 #: lms/static/js/student_account/views/FinishAuthView.js:163
 msgid "Adding the selected course to your cart"
 msgstr "將所選課程加入您的購物車"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:167
+msgid " redirect the user to the next page"
+msgstr " 將用戶重新導向至下一頁"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:177
 msgid "Loading your courses"
@@ -6480,6 +6556,10 @@ msgstr "有關失敗的詳細信息"
 msgid "Add Component:"
 msgstr "新增組件："
 
+#: cms/templates/js/add-xblock-component-button.underscore:10
+msgid "Beta"
+msgstr "測試版"
+
 #: cms/templates/js/add-xblock-component-menu-problem.underscore:3
 #: cms/templates/js/add-xblock-component-menu.underscore:4
 #, python-format
@@ -7340,6 +7420,20 @@ msgstr "新增章節"
 #: cms/templates/js/edit-title-button.underscore:1
 msgid "Edit Title"
 msgstr "編輯標題"
+
+#: cms/templates/js/edit-upstream-alert.underscore:4
+msgid "You are editing content from a Library."
+msgstr "你正在編輯來自資料庫的內容。"
+
+#: cms/templates/js/edit-upstream-alert.underscore:6
+msgid ""
+"Edits made here will only be reflected in this course. These edits may be "
+"overridden later if updates are accepted."
+msgstr "在此處所作的編輯只會反映在此課程中。如日後接受更新，這些編輯可能會被覆寫。"
+
+#: cms/templates/js/edit-upstream-alert.underscore:14
+msgid "View in Library"
+msgstr "在資料庫中查看"
 
 #: cms/templates/js/embed-link-share-link-editor.underscore:5
 msgid ""
@@ -9385,3 +9479,1253 @@ msgid ""
 "Note: Learners can be in only one cohort. Adding learners to this group "
 "overrides any previous group assignment."
 msgstr "注意：學生只能屬於一組。將學生新增至該群組會覆蓋先前的任何群組分配。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:25
+msgid ""
+"Enter email addresses and/or usernames, separated by new lines or commas, "
+"for the learners you want to add. *"
+msgstr "輸入你要加入的學生的電郵地址及／或用戶名稱，以換行或逗號分隔。*"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:26
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:25
+msgid "(Required Field)"
+msgstr "（必填欄位）"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:30
+msgid "e.g. johndoe@example.com, JaneDoe, joeydoe@example.com"
+msgstr "例如：johndoe@example.com, JaneDoe, joeydoe@example.com"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:33
+msgid ""
+"You will not receive notification for emails that bounce, so double-check "
+"your spelling."
+msgstr "電郵被退回時你不會收到通知，因此請仔細檢查拼寫。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:39
+msgid "Add Learners"
+msgstr "加入學生"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:5
+msgid "Add a New Cohort"
+msgstr "新增群組"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:19
+msgid "Enter the name of the cohort"
+msgstr "輸入群組名稱"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:24
+msgid "Cohort Name"
+msgstr "群組名稱"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:44
+msgid "Cohort Assignment Method"
+msgstr "群組分配方式"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:47
+msgid "Automatic"
+msgstr "自動"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:50
+msgid "Manual"
+msgstr "手動"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:56
+msgid ""
+"There must be one cohort to which students can automatically be assigned."
+msgstr "必須有一個可供學生自動分配的群組。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:62
+msgid "Associated Content Group"
+msgstr "關聯的內容分組"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:64
+msgid "No Content Group"
+msgstr "沒有內容分組"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:66
+msgid "Select a Content Group"
+msgstr "選擇內容分組"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:69
+msgid "Choose a content group to associate"
+msgstr "選擇要關聯的內容分組"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:71
+msgid "Not selected"
+msgstr "未選擇"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:93
+msgid "Deleted Content Group"
+msgstr "已刪除的內容分組"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:104
+#, python-brace-format
+msgid ""
+"{screen_reader_start}Warning:{screen_reader_end} The previously selected "
+"content group was deleted. Select another content group."
+msgstr "{screen_reader_start}警告：{screen_reader_end}先前選擇的內容分組已被刪除。請選擇另一個內容分組。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:123
+#, python-brace-format
+msgid ""
+"{screen_reader_start}Warning:{screen_reader_end} No content groups exist."
+msgstr "{screen_reader_start}警告：{screen_reader_end}沒有任何內容分組。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:131
+msgid "Only the parent course staff of a CCX can create content groups."
+msgstr "只有CCX所屬原課程的職員才可建立內容分組。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore:133
+msgid "Create a content group"
+msgstr "建立內容分組"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:5
+#, python-format
+msgid "(contains %(student_count)s student)"
+msgid_plural "(contains %(student_count)s students)"
+msgstr[0] "（包含%(student_count)s名學生）"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:14
+msgid ""
+"Learners are added to this cohort only when you provide their email "
+"addresses or usernames on this page."
+msgstr "只有當你在此頁面提供學生的電郵地址或用戶名稱時，學生才會被加入此群組。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:15
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:18
+msgid "What does this mean?"
+msgstr "這是甚麼意思？"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:17
+msgid "Learners are added to this cohort automatically."
+msgstr "學生會自動被加入此群組。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore:2
+msgid "Select a cohort"
+msgstr "選擇群組"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore:7
+#, python-format
+msgid "%(cohort_name)s (%(user_count)s)"
+msgstr "%(cohort_name)s (%(user_count)s)"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:2
+msgid "Enable Cohorts"
+msgstr "啟用群組"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:11
+msgid "Select a cohort to manage"
+msgstr "選擇要管理的群組"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:16
+msgid "View Cohort"
+msgstr "查看群組"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:37
+msgid "Assign learners to cohorts by uploading a CSV file"
+msgstr "上傳CSV檔案以將學生分配至群組"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:44
+#, python-brace-format
+msgid ""
+"To review learner cohort assignments or see the results of uploading a CSV "
+"file, download course profile information or cohort results on the "
+"{link_start}Data Download{link_end} page."
+msgstr ""
+"如要檢視學生的群組分配情況或查看上傳CSV檔案的結果，請在{link_start}資料下載{link_end}頁面下載課程個人檔案資料或群組結果。"
+
+#: lms/templates/instructor/instructor_dashboard_2/discussions.underscore:3
+msgid "Specify whether discussion topics are divided"
+msgstr "指定是否劃分討論主題"
+
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:6
+msgid "Course-Wide Discussion Topics"
+msgstr "全課程討論主題"
+
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-course-wide.underscore:7
+msgid "Select the course-wide discussion topics that you want to divide."
+msgstr "選擇你要劃分的全課程討論主題。"
+
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:8
+msgid "Content-Specific Discussion Topics"
+msgstr "特定內容討論主題"
+
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:9
+msgid "Specify whether content-specific discussion topics are divided."
+msgstr "指定是否劃分特定內容討論主題。"
+
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:13
+msgid "Always divide content-specific discussion topics"
+msgstr "一律劃分特定內容討論主題"
+
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:19
+msgid "Divide the selected content-specific discussion topics"
+msgstr "劃分所選的特定內容討論主題"
+
+#: lms/templates/instructor/instructor_dashboard_2/divided-discussions-inline.underscore:27
+msgid "No content-specific discussion topics exist."
+msgstr "沒有任何特定內容討論主題。"
+
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:4
+msgid "Used"
+msgstr "已使用"
+
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore:5
+msgid "Valid"
+msgstr "有效"
+
+#: lms/templates/learner_dashboard/certificate_status.underscore:2
+#: lms/templates/learner_dashboard/upgrade_message.underscore:2
+msgid "Certificate Status:"
+msgstr "證書狀態："
+
+#: lms/templates/learner_dashboard/certificate_status.underscore:4
+msgid "Certificate Purchased"
+msgstr "已購買證書"
+
+#: lms/templates/learner_dashboard/course_card.underscore:21
+msgid "Change or Leave Session"
+msgstr "更改或退出時段"
+
+#: lms/templates/learner_dashboard/course_card.underscore:29
+#, python-brace-format
+msgid "You must select a session by {expiration_date} to access the course."
+msgstr "你必須在{expiration_date}或之前選擇時段，才能存取課程。"
+
+#: lms/templates/learner_dashboard/course_card.underscore:33
+msgid "You can no longer change sessions."
+msgstr "你已不能再更改時段。"
+
+#: lms/templates/learner_dashboard/course_card.underscore:35
+#, python-brace-format
+msgid "You can change sessions until {expiration_date}."
+msgstr "你可在{expiration_date}或之前更改時段。"
+
+#: lms/templates/learner_dashboard/course_enroll.underscore:5
+msgid "View Archived Course"
+msgstr "查看已封存課程"
+
+#: lms/templates/learner_dashboard/course_enroll.underscore:7
+msgid "View Course"
+msgstr "查看課程"
+
+#: lms/templates/learner_dashboard/course_enroll.underscore:15
+msgid "Select a session:"
+msgstr "選擇時段："
+
+#: lms/templates/learner_dashboard/course_enroll.underscore:34
+#: lms/templates/learner_dashboard/course_enroll.underscore:38
+msgid "Enroll Now"
+msgstr "立即報名"
+
+#: lms/templates/learner_dashboard/course_enroll.underscore:44
+msgid "Coming Soon"
+msgstr "即將推出"
+
+#: lms/templates/learner_dashboard/course_enroll.underscore:48
+msgid "Enrollment Opens on"
+msgstr "報名開始日期"
+
+#: lms/templates/learner_dashboard/course_enroll.underscore:56
+msgid "Not Currently Available"
+msgstr "目前未能提供"
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:4
+msgid "More sessions coming soon."
+msgstr "更多時段即將推出。"
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:7
+msgid "Change to a different session or leave the current session."
+msgstr "更改至其他時段或退出目前時段。"
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:9
+msgid "To access the course, select a session."
+msgstr "如要存取課程，請選擇時段。"
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:15
+#, python-brace-format
+msgid "Session Selection Dropdown for {courseName}"
+msgstr "{courseName}的時段選擇下拉選單"
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:19
+#, python-brace-format
+msgid "{sessionDates} - Currently Selected"
+msgstr "{sessionDates} - 目前已選"
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:21
+#, python-brace-format
+msgid "{sessionDates} (Open until {enrollmentEnd})"
+msgstr "{sessionDates}（開放至{enrollmentEnd}）"
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:27
+msgid "More sessions coming soon"
+msgstr "更多時段即將推出"
+
+#: lms/templates/learner_dashboard/course_entitlement.underscore:28
+msgid "Leave the current session and decide later"
+msgstr "退出目前時段，稍後再決定"
+
+#: lms/templates/learner_dashboard/empty_programs_list.underscore:2
+msgid "You are not enrolled in any programs yet."
+msgstr "你尚未報名任何課程計劃。"
+
+#: lms/templates/learner_dashboard/empty_programs_list.underscore:5
+msgid "Explore Programs"
+msgstr "探索課程計劃"
+
+#: lms/templates/learner_dashboard/explore_new_programs.underscore:2
+msgid ""
+"Browse recently launched courses and see what\\'s new in your favorite "
+"subjects"
+msgstr "瀏覽最近推出的課程，看看你喜愛的科目有甚麼新內容"
+
+#: lms/templates/learner_dashboard/explore_new_programs.underscore:6
+msgid "Explore new programs"
+msgstr "探索新的課程計劃"
+
+#: lms/templates/learner_dashboard/program_card.underscore:16
+#: lms/templates/learner_dashboard/program_card.underscore:24
+#: lms/templates/learner_dashboard/program_card.underscore:32
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:15
+msgid "Course"
+msgid_plural "Courses"
+msgstr[0] "課程"
+
+#: lms/templates/learner_dashboard/program_card.underscore:18
+msgid "Completed"
+msgstr "已完成"
+
+#: lms/templates/learner_dashboard/program_card.underscore:34
+msgid "Remaining"
+msgstr "餘下"
+
+#: lms/templates/learner_dashboard/program_card.underscore:60
+#, python-format
+msgid "%(programName)s Home Page."
+msgstr "%(programName)s主頁。"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:3
+#, python-brace-format
+msgid "Your {program} Certificate"
+msgstr "你的{program}證書"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:6
+#, python-format
+msgid "Open the certificate you earned for the %(title)s program."
+msgstr "開啟你在%(title)s課程計劃中獲得的證書。"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:12
+msgid "Program Record"
+msgstr "課程計劃記錄"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:14
+msgid ""
+"Once you complete one of the program requirements you have a program record."
+" This record is marked complete once you meet all program requirements. A "
+"program record can be used to continue your learning journey and demonstrate"
+" your learning to others."
+msgstr ""
+"當你完成其中一項課程計劃要求後，便會擁有課程計劃記錄。當你符合所有課程計劃要求後，此記錄會被標示為已完成。課程計劃記錄可用於延續你的學習旅程，並向他人展示你的學習成果。"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:19
+msgid "View Program Record"
+msgstr "查看課程計劃記錄"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:27
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:120
+msgid "Additional Credit Opportunities"
+msgstr "其他學分機會"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:41
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:67
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:143
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:172
+msgid "Learn More"
+msgstr "了解更多"
+
+#: lms/templates/learner_dashboard/program_details_sidebar.underscore:53
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:157
+msgid "Additional Professional Opportunities"
+msgstr "其他專業發展機會"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:33
+#: lms/templates/learner_dashboard/program_details_view.underscore:8
+msgid "Congratulations!"
+msgstr "恭喜！"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:35
+#: lms/templates/learner_dashboard/program_details_view.underscore:10
+#, python-format
+msgid ""
+"You have successfully completed all the requirements for the %(title)s "
+"%(type)s."
+msgstr "你已成功完成%(title)s %(type)s的所有要求。"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:40
+#: lms/templates/learner_dashboard/program_details_view.underscore:15
+msgid "Your Program Journey"
+msgstr "你的課程計劃旅程"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:43
+#, python-format
+msgid ""
+"Track and plan your progress through the %(count)s course(s) in this "
+"program. To complete the program, you must earn a verified certificate for "
+"each course."
+msgstr "追蹤並規劃你在此課程計劃中%(count)s個課程的進度。如要完成課程計劃，你必須取得每個課程的已驗證證書。"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:52
+#: lms/templates/learner_dashboard/program_details_view.underscore:28
+msgid "Upgrade All Remaining Courses ("
+msgstr "升級所有餘下課程 ("
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:56
+#: lms/templates/learner_dashboard/program_details_view.underscore:32
+#, python-brace-format
+msgid "${listPrice}"
+msgstr "${listPrice}"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:62
+#: lms/templates/learner_dashboard/program_details_view.underscore:38
+#, python-brace-format
+msgid " ${price} {currency} )"
+msgstr " ${price} {currency} )"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:73
+#: lms/templates/learner_dashboard/program_details_view.underscore:49
+msgid "COURSES IN PROGRESS"
+msgstr "進行中的課程"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:82
+#: lms/templates/learner_dashboard/program_details_view.underscore:58
+msgid "REMAINING COURSES"
+msgstr "餘下的課程"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:90
+#: lms/templates/learner_dashboard/program_details_view.underscore:66
+msgid "COMPLETED COURSES"
+msgstr "已完成的課程"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:97
+#: lms/templates/learner_dashboard/program_details_view.underscore:73
+msgid "As you complete courses, you will see them listed here."
+msgstr "當你完成課程後，課程會在此處列出。"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:98
+#: lms/templates/learner_dashboard/program_details_view.underscore:74
+msgid ""
+"Complete courses on your schedule to ensure you stand out in your field!"
+msgstr "按自己的時間表完成課程，讓你在所屬領域中脫穎而出！"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:122
+#, python-format
+msgid "Transform your %(org)s %(type)s into a full master’s degree"
+msgstr "將你的%(org)s %(type)s轉化為完整的碩士學位"
+
+#: lms/templates/learner_dashboard/program_details_tab_view.underscore:125
+#, python-format
+msgid ""
+"Successful completion of %(org)s %(program)s credential can be applied "
+"towards flexible, rigorous, and affordable masters degrees from the world’s "
+"leading universities."
+msgstr "成功完成%(org)s %(program)s資歷後，可用於銜接世界頂尖大學靈活、嚴謹且學費相宜的碩士學位。"
+
+#: lms/templates/learner_dashboard/program_details_view.underscore:18
+#, python-format
+msgid ""
+"Track and plan your progress through the %(count)s courses in this program. "
+"To complete the program, you must earn a verified certificate for each "
+"course."
+msgstr "追蹤並規劃你在此課程計劃中%(count)s個課程的進度。如要完成課程計劃，你必須取得每個課程的已驗證證書。"
+
+#: lms/templates/learner_dashboard/program_header_view.underscore:15
+#, python-brace-format
+msgid "{organization}\\'s logo"
+msgstr "{organization}的標誌"
+
+#: lms/templates/learner_dashboard/program_list_header_view.underscore:1
+msgid "My programs"
+msgstr "我的課程計劃"
+
+#: lms/templates/learner_dashboard/upgrade_message.underscore:3
+msgid "Needs verified certificate "
+msgstr "需要已驗證證書 "
+
+#: lms/templates/learner_dashboard/upgrade_message.underscore:9
+msgid "Upgrade to Verified"
+msgstr "升級至已驗證"
+
+#: lms/templates/student_account/account.underscore:2
+msgid "New Address"
+msgstr "新地址"
+
+#: lms/templates/student_account/account.underscore:6
+msgid "Password"
+msgstr "密碼"
+
+#: lms/templates/student_account/account.underscore:11
+msgid "Change My Email Address"
+msgstr "更改我的電郵地址"
+
+#: lms/templates/student_account/account.underscore:16
+msgid "Reset Password"
+msgstr "重置密碼"
+
+#: lms/templates/student_account/form_field.underscore:139
+msgid "Need help signing in?"
+msgstr "登入時需要幫助？"
+
+#: lms/templates/student_account/form_field.underscore:141
+msgid "Forgot my password"
+msgstr "忘記密碼"
+
+#: lms/templates/student_account/form_field.underscore:143
+#: lms/templates/student_account/form_field.underscore:157
+msgid "Other sign-in issues"
+msgstr "其他登入問題"
+
+#: lms/templates/student_account/form_field.underscore:147
+msgid "Sign in with your company or school"
+msgstr "使用你的公司或學校帳戶登入"
+
+#: lms/templates/student_account/form_field.underscore:151
+msgid "Need other help signing in?"
+msgstr "需要其他登入幫助？"
+
+#: lms/templates/student_account/form_field.underscore:154
+msgid "Create an account"
+msgstr "建立帳戶"
+
+#: lms/templates/student_account/hinted_login.underscore:4
+#: lms/templates/student_account/login.underscore:56
+msgid "Sign in"
+msgstr "登入"
+
+#: lms/templates/student_account/hinted_login.underscore:8
+#, python-format
+msgid "Would you like to sign in using your %(providerName)s credentials?"
+msgstr "你要使用你的%(providerName)s憑證登入嗎？"
+
+#: lms/templates/student_account/hinted_login.underscore:16
+#, python-format
+msgid "Sign in using %(providerName)s"
+msgstr "使用%(providerName)s登入"
+
+#: lms/templates/student_account/hinted_login.underscore:26
+msgid "Show me other ways to sign in or register"
+msgstr "顯示其他登入或登記方式"
+
+#: lms/templates/student_account/institution_login.underscore:4
+msgid "Sign in with Institution/Campus Credentials"
+msgstr "使用院校／校園憑證登入"
+
+#: lms/templates/student_account/institution_login.underscore:8
+#: lms/templates/student_account/institution_register.underscore:9
+msgid "Choose your institution from the list below:"
+msgstr "請從以下列表選擇你的院校："
+
+#: lms/templates/student_account/institution_login.underscore:27
+msgid "Back to sign in"
+msgstr "返回登入"
+
+#: lms/templates/student_account/institution_register.underscore:5
+msgid "Register with Institution/Campus Credentials"
+msgstr "使用院校／校園憑證登記"
+
+#: lms/templates/student_account/institution_register.underscore:28
+#: lms/templates/student_account/register.underscore:50
+msgid "Create an Account"
+msgstr "建立帳戶"
+
+#: lms/templates/student_account/login.underscore:6
+msgid "First time here?"
+msgstr "第一次到訪？"
+
+#: lms/templates/student_account/login.underscore:7
+msgid "Create an Account."
+msgstr "建立帳戶。"
+
+#: lms/templates/student_account/login.underscore:14
+#, python-brace-format
+msgid "Sign in to continue learning as {email}"
+msgstr "以{email}的身份登入以繼續學習"
+
+#: lms/templates/student_account/login.underscore:16
+msgid "Sign in to continue learning"
+msgstr "登入以繼續學習"
+
+#: lms/templates/student_account/login.underscore:19
+#, python-brace-format
+msgid ""
+"You already have an edX account with your {enterprise_name} email address."
+msgstr "你已有一個使用{enterprise_name}電郵地址的edX帳戶。"
+
+#: lms/templates/student_account/login.underscore:21
+#, python-brace-format
+msgid ""
+"Going forward, your account information will be updated and maintained by "
+"{enterprise_name}."
+msgstr "今後，你的帳戶資料將由{enterprise_name}更新及維護。"
+
+#: lms/templates/student_account/login.underscore:23
+#, python-brace-format
+msgid ""
+"You can view your information or unlink from {enterprise_name} anytime in "
+"your Account Settings."
+msgstr "你可隨時在帳戶設定中查看你的資料，或取消與{enterprise_name}的連結。"
+
+#: lms/templates/student_account/login.underscore:25
+msgid "To continue learning with this account, sign in below."
+msgstr "如要使用此帳戶繼續學習，請在下方登入。"
+
+#: lms/templates/student_account/login.underscore:27
+msgid "Sign In"
+msgstr "登入"
+
+#: lms/templates/student_account/login.underscore:34
+msgid ""
+"Sign in here using your email address and password, or use one of the "
+"providers listed below."
+msgstr "請在此使用你的電郵地址及密碼登入，或使用下列其中一個服務供應商登入。"
+
+#: lms/templates/student_account/login.underscore:36
+msgid "Sign in here using your email address and password."
+msgstr "請在此使用你的電郵地址及密碼登入。"
+
+#: lms/templates/student_account/login.underscore:38
+msgid "If you do not yet have an account, use the button below to register."
+msgstr "如果你尚未有帳戶，請使用下方按鈕登記。"
+
+#: lms/templates/student_account/login.underscore:43
+msgid "Use my university info"
+msgstr "使用我的大學資料"
+
+#: lms/templates/student_account/login.underscore:48
+#: lms/templates/student_account/login.underscore:63
+msgid "or sign in with"
+msgstr "或使用以下方式登入"
+
+#: lms/templates/student_account/login.underscore:76
+#, python-format
+msgid "Sign in with %(providerName)s"
+msgstr "使用%(providerName)s登入"
+
+#: lms/templates/student_account/password_reset.underscore:4
+msgid "Password assistance"
+msgstr "密碼協助"
+
+#: lms/templates/student_account/password_reset.underscore:8
+msgid ""
+"Please enter your log-in or recovery email address below and we will send "
+"you an email with instructions."
+msgstr "請在下方輸入你的登入電郵地址或後備電郵地址，我們會向你發送載有指示的電郵。"
+
+#: lms/templates/student_account/password_reset.underscore:12
+msgid "Recover my password"
+msgstr "取回我的密碼"
+
+#: lms/templates/student_account/register.underscore:6
+#, python-brace-format
+msgid "Already have an {platformName} account?"
+msgstr "已有{platformName}帳戶？"
+
+#: lms/templates/student_account/register.underscore:7
+msgid "Sign in."
+msgstr "登入。"
+
+#: lms/templates/student_account/register.underscore:18
+msgid "Create an account using"
+msgstr "使用以下方式建立帳戶"
+
+#: lms/templates/student_account/register.underscore:31
+#, python-format
+msgid "Create account using %(providerName)s."
+msgstr "使用%(providerName)s建立帳戶。"
+
+#: lms/templates/student_account/register.underscore:38
+msgid "Use my institution/campus credentials"
+msgstr "使用我的院校／校園憑證"
+
+#: lms/templates/student_account/register.underscore:45
+msgid "or create a new one here"
+msgstr "或在此建立新帳戶"
+
+#: lms/templates/student_account/register.underscore:63
+msgid "Support education research by providing additional information"
+msgstr "提供額外資料以支持教育研究"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:3
+#, python-format
+msgid "Congratulations! You are now verified on %(platformName)s!"
+msgstr "恭喜！你現已在%(platformName)s通過驗證！"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:5
+msgid "You are now enrolled as a verified student for:"
+msgstr "你現已以已驗證學生身份報名以下課程："
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:12
+msgid "A list of courses you have just enrolled in as a verified student"
+msgstr "你剛以已驗證學生身份報名的課程列表"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:31
+msgid "Explore your course!"
+msgstr "探索你的課程！"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:35
+msgid "Go to your Dashboard"
+msgstr "前往你的控制面板"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:46
+msgid "Verified Status"
+msgstr "已驗證狀態"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore:48
+#, python-format
+msgid ""
+"Thank you for submitting your photos. We will review them shortly. You can "
+"now sign up for any %(platformName)s course that offers verified "
+"certificates. Verification is good for one year. After one year, you must "
+"submit photos for verification again."
+msgstr ""
+"感謝你提交相片。我們會盡快審核。你現在可以報名任何提供已驗證證書的%(platformName)s課程。驗證有效期為一年。一年後，你必須再次提交相片進行驗證。"
+
+#: lms/templates/verify_student/error.underscore:6
+msgid "Error:"
+msgstr "錯誤："
+
+#: lms/templates/verify_student/face_photo_step.underscore:4
+msgid "What You Need for Verification"
+msgstr "驗證所需物品"
+
+#: lms/templates/verify_student/face_photo_step.underscore:6
+msgid "Device with Camera"
+msgstr "附有鏡頭的裝置"
+
+#: lms/templates/verify_student/face_photo_step.underscore:7
+msgid ""
+"You need a device that has a webcam. If you receive a browser prompt for "
+"access to your camera, please make sure to click 'Allow'."
+msgstr "你需要一部配備網絡攝影機的裝置。如果瀏覽器提示要求存取你的鏡頭，請務必點擊「允許」。"
+
+#: lms/templates/verify_student/face_photo_step.underscore:10
+msgid "Photo Identification"
+msgstr "附相片的身份證明文件"
+
+#: lms/templates/verify_student/face_photo_step.underscore:11
+msgid "You need a valid ID that contains your full name and photo."
+msgstr "你需要一份載有你全名及相片的有效身份證明文件。"
+
+#: lms/templates/verify_student/face_photo_step.underscore:17
+#: lms/templates/verify_student/incourse_reverify.underscore:3
+msgid "Take Your Photo"
+msgstr "拍攝你的相片"
+
+#: lms/templates/verify_student/face_photo_step.underscore:19
+#, python-brace-format
+msgid ""
+"When your face is in position, use the Take Photo button {icon} below to "
+"take your photo."
+msgstr "當你的面部處於適當位置後，使用下方的「拍攝相片」按鈕{icon}拍攝相片。"
+
+#: lms/templates/verify_student/face_photo_step.underscore:25
+msgid "To take a successful photo, make sure that:"
+msgstr "要成功拍攝相片，請確保："
+
+#: lms/templates/verify_student/face_photo_step.underscore:29
+msgid "Your face is well-lit."
+msgstr "你的面部光線充足。"
+
+#: lms/templates/verify_student/face_photo_step.underscore:30
+msgid "Your entire face fits inside the frame."
+msgstr "你的整個面部都在框內。"
+
+#: lms/templates/verify_student/face_photo_step.underscore:33
+#, python-brace-format
+msgid ""
+"To take the photo of your face, click on the camera button {icon}. If you "
+"need to try again, click 'Retake Photo'."
+msgstr "如要拍攝面部相片，請點擊相機按鈕{icon}。如需重試，請點擊「重新拍攝相片」。"
+
+#: lms/templates/verify_student/face_photo_step.underscore:38
+#: lms/templates/verify_student/id_photo_step.underscore:30
+#: lms/templates/verify_student/incourse_reverify.underscore:29
+msgid "Frequently Asked Questions"
+msgstr "常見問題"
+
+#: lms/templates/verify_student/face_photo_step.underscore:42
+#: lms/templates/verify_student/id_photo_step.underscore:35
+#: lms/templates/verify_student/incourse_reverify.underscore:33
+#, python-format
+msgid "Why does %(platformName)s need my photo?"
+msgstr "為甚麼%(platformName)s需要我的相片？"
+
+#: lms/templates/verify_student/face_photo_step.underscore:44
+msgid ""
+"We use your verification photos to confirm your identity and ensure the "
+"validity of your certificate."
+msgstr "我們會使用你的驗證相片確認你的身份，並確保你的證書有效。"
+
+#: lms/templates/verify_student/face_photo_step.underscore:46
+#: lms/templates/verify_student/id_photo_step.underscore:41
+#: lms/templates/verify_student/incourse_reverify.underscore:37
+#, python-format
+msgid "What does %(platformName)s do with this photo?"
+msgstr "%(platformName)s會如何處理這張相片？"
+
+#: lms/templates/verify_student/face_photo_step.underscore:49
+#: lms/templates/verify_student/id_photo_step.underscore:44
+#, python-format
+msgid ""
+"We securely encrypt your photo and send it to our authorization service for "
+"review. Your photo and information are not saved or visible anywhere on "
+"%(platformName)s after the verification process is complete."
+msgstr ""
+"我們會把你的相片安全加密，然後傳送至我們的授權服務進行審核。驗證程序完成後，你的相片及資料不會儲存或顯示於%(platformName)s的任何位置。"
+
+#: lms/templates/verify_student/face_photo_step.underscore:52
+#: lms/templates/verify_student/id_photo_step.underscore:47
+#: lms/templates/verify_student/incourse_reverify.underscore:43
+msgid ""
+"What if I can't see the camera image, or if I can't see my photo do "
+"determine which side is visible?"
+msgstr "如果我看不到鏡頭影像，或看不到相片以判斷顯示的是哪一面，該怎麼辦？"
+
+#: lms/templates/verify_student/face_photo_step.underscore:55
+#: lms/templates/verify_student/incourse_reverify.underscore:46
+msgid ""
+"You may be able to complete the image capture procedure without assistance, "
+"but it may take a couple of submission attempts to get the camera "
+"positioning right.  Optimal camera positioning varies with each computer, "
+"but generally the best position for a headshot is approximately 12-18 inches"
+" (30-45 centimeters) from the camera, with your head centered relative to "
+"the computer screen. "
+msgstr ""
+"你或可在沒有協助的情況下完成影像拍攝程序，但可能需要嘗試提交數次才能調校好鏡頭位置。最佳的鏡頭位置因電腦而異，但一般而言，拍攝大頭照的最佳位置是距離鏡頭約12至18吋（30至45厘米），而頭部位於電腦屏幕的正中。"
+" "
+
+#: lms/templates/verify_student/face_photo_step.underscore:56
+#: lms/templates/verify_student/id_photo_step.underscore:51
+#: lms/templates/verify_student/incourse_reverify.underscore:47
+msgid ""
+"If the photos you submit are rejected, try moving the computer or camera "
+"orientation to change the lighting angle.  The most common reason for "
+"rejection is inability to read the text on the ID card."
+msgstr "如果你提交的相片被拒絕，請嘗試移動電腦或調整鏡頭方向，以改變光線角度。最常見的拒絕原因是無法閱讀身份證明文件上的文字。"
+
+#: lms/templates/verify_student/face_photo_step.underscore:59
+#: lms/templates/verify_student/incourse_reverify.underscore:50
+msgid ""
+"What if I have difficulty holding my head in position relative to the "
+"camera?"
+msgstr "如果我難以把頭部保持在鏡頭前的適當位置，該怎麼辦？"
+
+#: lms/templates/verify_student/face_photo_step.underscore:62
+#: lms/templates/verify_student/id_photo_step.underscore:57
+#: lms/templates/verify_student/incourse_reverify.underscore:53
+#, python-format
+msgid ""
+"If you require assistance with taking either photo for submission, contact "
+"%(platformName)s support for additional suggestions."
+msgstr "如果你在拍攝任何一張要提交的相片時需要協助，請聯絡%(platformName)s支援團隊以取得其他建議。"
+
+#: lms/templates/verify_student/face_photo_step.underscore:77
+#: lms/templates/verify_student/id_photo_step.underscore:69
+#: lms/templates/verify_student/intro_step.underscore:80
+#, python-format
+msgid "Next: %(nextStepTitle)s"
+msgstr "下一步：%(nextStepTitle)s"
+
+#: lms/templates/verify_student/id_photo_step.underscore:3
+msgid "Take a Photo of Your ID"
+msgstr "拍攝你的身份證明文件"
+
+#: lms/templates/verify_student/id_photo_step.underscore:5
+msgid "Use your webcam to take a photo of your ID."
+msgstr "使用網絡攝影機拍攝你的身份證明文件。"
+
+#: lms/templates/verify_student/id_photo_step.underscore:13
+msgid ""
+"You need an ID with your name and photo. A driver's license, passport, or ID"
+" are all acceptable."
+msgstr "你需要一份載有姓名及相片的身份證明文件。駕駛執照、護照或身份證均可接受。"
+
+#: lms/templates/verify_student/id_photo_step.underscore:15
+#: lms/templates/verify_student/incourse_reverify.underscore:13
+msgid "Tips on taking a successful photo"
+msgstr "成功拍攝相片的提示"
+
+#: lms/templates/verify_student/id_photo_step.underscore:19
+msgid "Ensure that you can see your photo and read your name"
+msgstr "確保你能看到自己的相片並能閱讀自己的姓名"
+
+#: lms/templates/verify_student/id_photo_step.underscore:20
+msgid "Make sure your ID is well-lit"
+msgstr "確保你的身份證明文件光線充足"
+
+#: lms/templates/verify_student/id_photo_step.underscore:22
+#, python-brace-format
+msgid "Once in position, use the Take Photo button {icon} to capture your ID"
+msgstr "就位後，使用「拍攝相片」按鈕{icon}拍攝你的身份證明文件"
+
+#: lms/templates/verify_student/id_photo_step.underscore:24
+#: lms/templates/verify_student/incourse_reverify.underscore:23
+msgid "Use the Retake Photo button if you are not pleased with your photo"
+msgstr "如果你對相片不滿意，請使用「重新拍攝相片」按鈕"
+
+#: lms/templates/verify_student/id_photo_step.underscore:38
+msgid ""
+"As part of the verification process, you take a photo of both your face and "
+"a photo ID. Our authorization service confirms your identity by comparing "
+"the photo you take with the photo on your ID."
+msgstr "在驗證過程中，你需要拍攝面部相片及附相片的身份證明文件。我們的授權服務會比對你拍攝的相片與身份證明文件上的相片，以確認你的身份。"
+
+#: lms/templates/verify_student/id_photo_step.underscore:50
+msgid ""
+"You may be able to complete the image capture procedure without assistance, "
+"but it may take a couple of submission attempts to get the camera "
+"positioning right.  Optimal camera positioning varies with each computer, "
+"but generally, the best position for a photo of an ID card is 8-12 inches "
+"(20-30 centimeters) from the camera, with the ID card centered relative to "
+"the camera. "
+msgstr ""
+"你或可在沒有協助的情況下完成影像拍攝程序，但可能需要嘗試提交數次才能調校好鏡頭位置。最佳的鏡頭位置因電腦而異，但一般而言，拍攝身份證明文件的最佳位置是距離鏡頭8至12吋（20至30厘米），而身份證明文件位於鏡頭的正中。"
+" "
+
+#: lms/templates/verify_student/id_photo_step.underscore:54
+msgid ""
+"What if I have difficulty holding my ID in position relative to the camera?"
+msgstr "如果我難以把身份證明文件保持在鏡頭前的適當位置，該怎麼辦？"
+
+#: lms/templates/verify_student/image_input.underscore:1
+msgid "Preview of uploaded image"
+msgstr "已上傳圖片的預覽"
+
+#: lms/templates/verify_student/image_input.underscore:3
+msgid "Upload an image or capture one with your web or phone camera."
+msgstr "上傳圖片，或使用網絡攝影機或手機鏡頭拍攝。"
+
+#: lms/templates/verify_student/incourse_reverify.underscore:5
+msgid ""
+"Use your webcam to take a photo of your face. We will match this photo with "
+"the photo on your ID."
+msgstr "使用網絡攝影機拍攝你的面部相片。我們會把這張相片與你身份證明文件上的相片進行比對。"
+
+#: lms/templates/verify_student/incourse_reverify.underscore:17
+msgid "Make sure your face is well-lit"
+msgstr "確保你的面部光線充足"
+
+#: lms/templates/verify_student/incourse_reverify.underscore:18
+msgid "Be sure your entire face is inside the frame"
+msgstr "確保你的整個面部都在框內"
+
+#: lms/templates/verify_student/incourse_reverify.underscore:20
+#, python-brace-format
+msgid ""
+"Once in position, use the Take Photo button {icon} to capture your photo"
+msgstr "就位後，使用「拍攝相片」按鈕{icon}拍攝相片"
+
+#: lms/templates/verify_student/incourse_reverify.underscore:22
+msgid "Can we match the photo you took with the one on your ID?"
+msgstr "我們能否把你拍攝的相片與身份證明文件上的相片配對？"
+
+#: lms/templates/verify_student/incourse_reverify.underscore:35
+msgid ""
+"As part of the verification process, you take a photo of both your face and "
+"a government-issued photo ID. Our authorization service confirms your "
+"identity by comparing the photo you take with the photo on your ID."
+msgstr "在驗證過程中，你需要拍攝面部相片及政府簽發的附相片身份證明文件。我們的授權服務會比對你拍攝的相片與身份證明文件上的相片，以確認你的身份。"
+
+#: lms/templates/verify_student/incourse_reverify.underscore:40
+#, python-format
+msgid ""
+"We use the highest levels of security available to encrypt your photo and "
+"send it to our authorization service for review. Your photo and information "
+"are not saved or visible anywhere on %(platformName)s after the verification"
+" process is complete."
+msgstr ""
+"我們採用現有最高級別的保安措施為你的相片加密，然後傳送至我們的授權服務進行審核。驗證程序完成後，你的相片及資料不會儲存或顯示於%(platformName)s的任何位置。"
+
+#: lms/templates/verify_student/intro_step.underscore:6
+#, python-brace-format
+msgid "Thanks for returning to verify your ID in: {courseName}"
+msgstr "感謝你回來為以下課程驗證身份：{courseName}"
+
+#: lms/templates/verify_student/intro_step.underscore:19
+msgid ""
+"You need to activate your account before you can enroll in courses. Check "
+"your inbox for an activation email. After you complete activation you can "
+"return and refresh this page."
+msgstr "你需要先啟用帳戶，才可報名課程。請檢查收件箱中的啟用電郵。完成啟用後，你可以返回並重新整理此頁面。"
+
+#: lms/templates/verify_student/intro_step.underscore:31
+msgid "Activate Your Account"
+msgstr "啟用你的帳戶"
+
+#: lms/templates/verify_student/intro_step.underscore:45
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:93
+msgid "Photo ID"
+msgstr "附相片的身份證明文件"
+
+#: lms/templates/verify_student/intro_step.underscore:53
+msgid ""
+"A driver's license, passport, or other government-issued ID with your name "
+"and photo"
+msgstr "駕駛執照、護照或其他由政府簽發並載有你姓名及相片的身份證明文件"
+
+#: lms/templates/verify_student/intro_step.underscore:61
+#: lms/templates/verify_student/make_payment_step.underscore:77
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:105
+msgid "Webcam"
+msgstr "網絡攝影機"
+
+#: lms/templates/verify_student/make_payment_step.underscore:6
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:10
+#, python-brace-format
+msgid "You are enrolling in: {courseName}"
+msgstr "你正在報名：{courseName}"
+
+#: lms/templates/verify_student/make_payment_step.underscore:17
+#, python-brace-format
+msgid "You are upgrading your enrollment for: {courseName}"
+msgstr "你正在升級以下課程的報名：{courseName}"
+
+#: lms/templates/verify_student/make_payment_step.underscore:26
+msgid ""
+"You can now enter your payment information and complete your enrollment."
+msgstr "你現在可以輸入付款資料並完成報名。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:37
+#, python-brace-format
+msgid ""
+"You can pay now even if you don't have the following items available, but "
+"you will need to have these by {date} to qualify to earn a Verified "
+"Certificate."
+msgstr "即使你現時未備有以下物品，仍可立即付款，但你需要在{date}或之前備妥這些物品，才符合資格取得已驗證證書。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:44
+#, python-brace-format
+msgid ""
+"An email has been sent to {userEmail} with a link for you to activate your "
+"account."
+msgstr "我們已向{userEmail}發送電郵，內附啟用帳戶的連結。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:48
+msgid "Why activate?"
+msgstr "為甚麼要啟用？"
+
+#: lms/templates/verify_student/make_payment_step.underscore:50
+msgid ""
+"We ask you to activate your account to ensure it is really you creating the "
+"account and to prevent fraud."
+msgstr "我們要求你啟用帳戶，是為了確保建立帳戶的人確實是你本人，並防止欺詐。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:53
+msgid ""
+"You can pay now even if you don't have the following items available, but "
+"you will need to have these to qualify to earn a Verified Certificate."
+msgstr "即使你現時未備有以下物品，仍可立即付款，但你需要備妥這些物品，才符合資格取得已驗證證書。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:65
+msgid "Government-Issued Photo ID"
+msgstr "政府簽發的附相片身份證明文件"
+
+#: lms/templates/verify_student/make_payment_step.underscore:92
+msgid ""
+"ID-Verification is not required for this Professional Education course."
+msgstr "此專業教育課程無須進行身份驗證。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:93
+msgid ""
+"All professional education courses are fee-based, and require payment to "
+"complete the enrollment process."
+msgstr "所有專業教育課程均須收費，並須付款才能完成報名程序。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:97
+msgid "You have already verified your ID!"
+msgstr "你已驗證身份！"
+
+#: lms/templates/verify_student/make_payment_step.underscore:100
+#, python-brace-format
+msgid "Your verification status is good until {verificationGoodUntil}."
+msgstr "你的驗證狀態有效期至{verificationGoodUntil}。"
+
+#: lms/templates/verify_student/make_payment_step.underscore:112
+msgid "price"
+msgstr "價格"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:5
+msgid "Account Not Activated"
+msgstr "帳戶尚未啟用"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:21
+#, python-brace-format
+msgid "Upgrade to a Verified Certificate for {courseName}"
+msgstr "升級至{courseName}的已驗證證書"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:33
+msgid ""
+"Before you upgrade to a certificate track, you must activate your account."
+msgstr "在升級至證書修讀模式之前，你必須先啟用帳戶。"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:34
+msgid "Check your email for an activation message."
+msgstr "請檢查你的電郵，查看啟用訊息。"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:40
+msgid "Total"
+msgstr "總計"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:45
+#, python-brace-format
+msgid "Professional Certificate for {courseName}"
+msgstr "{courseName}的專業證書"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:49
+#, python-brace-format
+msgid "Verified Certificate for {courseName}"
+msgstr "{courseName}的已驗證證書"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:80
+#, python-brace-format
+msgid ""
+"To receive a certificate, you must also verify your identity before {date}."
+msgstr "如要取得證書，你還必須在{date}之前驗證身份。"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:85
+msgid "To receive a certificate, you must also verify your identity."
+msgstr "如要取得證書，你還必須驗證身份。"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:87
+msgid ""
+"To verify your identity, you need a webcam and a government-issued photo ID."
+msgstr "如要驗證身份，你需要網絡攝影機及政府簽發的附相片身份證明文件。"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:96
+msgid ""
+"Your ID must be a government-issued photo ID that clearly shows your face."
+msgstr "你的身份證明文件必須由政府簽發，並附有清楚顯示你面部的相片。"
+
+#: lms/templates/verify_student/make_payment_step_ab_testing.underscore:108
+msgid ""
+"You will use your webcam to take a picture of your face and of your "
+"government-issued photo ID."
+msgstr "你將使用網絡攝影機拍攝你的面部及政府簽發的附相片身份證明文件。"
+
+#: lms/templates/verify_student/reverify_success_step.underscore:2
+msgid "Identity Verification In Progress"
+msgstr "身份驗證進行中"
+
+#: lms/templates/verify_student/reverify_success_step.underscore:5
+msgid ""
+"We have received your information and are verifying your identity. You will "
+"see a message on your dashboard when the verification process is complete "
+"(usually within 5-7 days). In the meantime, you can still access all "
+"available course content."
+msgstr ""
+"我們已收到你的資料，現正驗證你的身份。驗證程序完成後（通常需時5至7天），你的控制面板上會顯示訊息。在此期間，你仍可存取所有可用的課程內容。"
+
+#: lms/templates/verify_student/reverify_success_step.underscore:9
+msgid "Return to Your Dashboard"
+msgstr "返回你的控制面板"
+
+#: lms/templates/verify_student/review_photos_step.underscore:3
+msgid "Review Your Photos"
+msgstr "檢視你的相片"
+
+#: lms/templates/verify_student/review_photos_step.underscore:5
+msgid ""
+"Make sure we can verify your identity with the photos and information you "
+"have provided."
+msgstr "請確保我們能以你提供的相片及資料驗證你的身份。"
+
+#: lms/templates/verify_student/review_photos_step.underscore:13
+#, python-format
+msgid "Photo of %(fullName)s"
+msgstr "%(fullName)s的相片"
+
+#: lms/templates/verify_student/review_photos_step.underscore:18
+#, python-format
+msgid "Photo of %(fullName)s's ID"
+msgstr "%(fullName)s的身份證明文件相片"
+
+#: lms/templates/verify_student/review_photos_step.underscore:25
+msgid "Photo requirements:"
+msgstr "相片要求："
+
+#: lms/templates/verify_student/review_photos_step.underscore:27
+msgid "Does the photo of you show your whole face?"
+msgstr "你的相片是否顯示整個面部？"
+
+#: lms/templates/verify_student/review_photos_step.underscore:28
+msgid "Is your name on your ID readable?"
+msgstr "身份證明文件上的姓名是否清晰可讀？"
+
+#: lms/templates/verify_student/review_photos_step.underscore:29
+#, python-format
+msgid "Does the name on your ID match your account name: %(fullName)s?"
+msgstr "身份證明文件上的姓名是否與你的帳戶姓名相符：%(fullName)s？"
+
+#: lms/templates/verify_student/review_photos_step.underscore:33
+msgid "Edit Your Name"
+msgstr "編輯你的姓名"
+
+#: lms/templates/verify_student/review_photos_step.underscore:38
+msgid ""
+"Make sure that the full name on your account matches the name on your ID."
+msgstr "請確保你帳戶上的全名與身份證明文件上的姓名相符。"
+
+#: lms/templates/verify_student/review_photos_step.underscore:50
+msgid "Photos don't meet the requirements?"
+msgstr "相片不符合要求？"
+
+#: lms/templates/verify_student/review_photos_step.underscore:52
+msgid "Retake Your Photos"
+msgstr "重新拍攝相片"
+
+#: lms/templates/verify_student/review_photos_step.underscore:63
+msgid "Before proceeding, please confirm that your details match"
+msgstr "繼續之前，請確認你的資料相符"
+
+#: lms/templates/verify_student/webcam_photo.underscore:4
+msgid ""
+"Don't see your picture? Make sure to allow your browser to use your camera "
+"when it asks for permission."
+msgstr "看不到你的影像？當瀏覽器要求權限時，請務必允許瀏覽器使用你的鏡頭。"
+
+#: lms/templates/verify_student/webcam_photo.underscore:7
+msgid "Live view of webcam"
+msgstr "網絡攝影機即時畫面"
+
+#: lms/templates/verify_student/webcam_photo.underscore:24
+msgid "Retake Photo"
+msgstr "重新拍攝相片"
+
+#: lms/templates/verify_student/webcam_photo.underscore:28
+msgid "Take Photo"
+msgstr "拍攝相片"
+
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:25
+msgid "Bookmarked on"
+msgstr "加入書籤日期"
+
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:44
+msgid "You have not bookmarked any courseware pages yet"
+msgstr "你尚未為任何課程內容頁面加入書籤"
+
+#: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore:49
+msgid ""
+"Use bookmarks to help you easily return to courseware pages. To bookmark a "
+"page, click \"Bookmark this page\" under the page title."
+msgstr "使用書籤可助你輕鬆返回課程內容頁面。如要為頁面加入書籤，請點擊頁面標題下方的「將此頁加入書籤」。"
+
+#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:13
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:14
+#, python-brace-format
+msgid "Load next {num_items} result"
+msgid_plural "Load next {num_items} results"
+msgstr[0] "載入後續{num_items}項結果"
+
+#: openedx/features/course_search/static/course_search/templates/course_search_results.underscore:25
+#: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
+msgid "Sorry, no results were found."
+msgstr "抱歉，找不到任何結果。"
